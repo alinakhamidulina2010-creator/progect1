@@ -54,6 +54,17 @@
     water.innerHTML = data.current.relative_humidity_2m
     let osadki = document.querySelector('.osadki')
     osadki.innerHTML = data.current.precipitation
+
+    navigator.geolocation.getCurrentPosition(
+        (pos) => {
+    function success(pos){
+      console.log(`Широта: $(pos.coords.latitude), Долгота: $(pos.coords.longitude)`)
+    }
+    function error(pos){
+      console.log('Не получилось')
+    }
+  })
+
     </script>
   </body>
 </html>
