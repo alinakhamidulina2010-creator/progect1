@@ -42,10 +42,12 @@ color: #123A8B;
 
 
 .container {
-
     padding: 50px;
     position:relative;
     z-index:1;
+    perspective: 400px;
+
+
 }
 
 .img {
@@ -67,9 +69,11 @@ color: #123A8B;
     margin: 60px auto;
     width: 511px;
     height: 159px;
-    background: #4F87F7;
+    background: #eaeaea;
     box-shadow: 10px 10px 10px rgba(0, 67, 201, 0.5);
     border-radius: 41px;
+    opacity: 0.7;
+    filter: blur(10px);
 
 
     font-style: normal;
