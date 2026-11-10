@@ -69,18 +69,17 @@ color: #123A8B;
     margin: 60px auto;
     width: 511px;
     height: 159px;
-    background: #eaeaea;
+    background: #0091ff;
     box-shadow: 10px 10px 10px rgba(0, 67, 201, 0.5);
     border-radius: 41px;
-    opacity: 0.7;
-    filter: blur(10px);
+
 
 
     font-style: normal;
     font-weight: 400;
     font-size: 128px;
     line-height: 120%;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 @media (max-width:600px) {
     .today{
@@ -90,6 +89,18 @@ color: #123A8B;
     }
     .rectangle1 img{
         width: 35px;
+        
+    }
+    .rectangle1{
+        flex-wrap: wrap;
+        height:unset;
+
+    }
+    .rectangle{
+        font-size:36px;
+    }
+    .container{
+        padding:50px 20px;
     }
 }
 
